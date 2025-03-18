@@ -1,0 +1,101 @@
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 40rem;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: black;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+}
+.radio-group {
+    display: flex;
+ 
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.radio-group input {
+    display: flex;
+    margin-right: 35rem;
+    align-items: center;
+}
+
+.radio-group label {
+    margin-right: 1rem;
+}
+button {
+    width: 100%;
+    background-color: #4299e1;
+    color: #ffffff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.containesr{
+    width: 150px;
+    height: 100px;
+}
+
+.question {
+    font-size: 1.125rem; 
+    margin-bottom: 0.5rem; 
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; 
+}
+.option:last-child {
+    margin-bottom: 0;
+}
+.option input {
+    margin-right: 0.5rem; 
+   
+}
+.option span {
+    font-size: 1.125rem; 
+    color: black;
+}
